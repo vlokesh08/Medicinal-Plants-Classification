@@ -6,6 +6,7 @@ import Landing from './pages/Landing'
 import About from './pages/About'
 import PlantDescription from './pages/PlantDescription'
 import Services from './pages/Services'
+import { ListOfPlants } from './pages/ListOfPlants'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects/model" element={<TeachableMachine />} />
+        <Route path="/plants/list" element={<ListOfPlants /> } />
+        <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </>
   )

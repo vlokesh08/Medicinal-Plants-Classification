@@ -10,7 +10,7 @@
         "id": 2,
         "title": "Details of various plants",
         "description": "Get the details of various plants with images and other details",
-        "route": "/projects/description",
+        "route": "/plants/list",
         "image" : "https://img.freepik.com/free-photo/bunch-fresh-mint-female-hands_158595-6938.jpg?w=1060&t=st=1707455043~exp=1707455643~hmac=42a3bc9b995cf5a2c13777fdd64da2e13688c65dc825abc5f07e2ba2f607be37"
     }
 ]
