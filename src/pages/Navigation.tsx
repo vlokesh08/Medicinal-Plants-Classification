@@ -6,7 +6,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSepar
 const Navigation = () => {
   const [searchValue, setSearchValue] = useState("");
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event : any) => {
     setSearchValue(event.target.value);
   };
 

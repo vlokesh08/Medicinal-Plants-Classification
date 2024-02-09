@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import * as tmImage from "@teachablemachine/image";
 import plants from "../pages/JsonFiles/Plants.json";
 
@@ -54,8 +54,6 @@ const TeachableMachine = () => {
 
       const prediction = await model.predict(imageRef.current);
       for (let i = 0; i < maxPredictions; i++) {
-        const classPrediction =
-          prediction[i].className + ": " + prediction[i].probability.toFixed(2);
 
         if (prediction[i].probability > maximum) {
           maximum = prediction[i].probability;
@@ -65,7 +63,7 @@ const TeachableMachine = () => {
 
       setVal(answer);
       labelContainer.childNodes[0].innerHTML = answer;
-
+      setCheck(true);
     } catch (error) {
       console.error(error);
     } finally {
