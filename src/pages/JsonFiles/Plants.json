@@ -1,0 +1,108 @@
+[
+      {
+        "id": 1,
+        "plant_name": "crape jasmine",
+        "description": "Crape jasmine, scientifically known as Tabernaemontana divaricata, is a beautiful flowering plant native to India and Southeast Asia. It is characterized by its glossy dark green leaves and fragrant, star-shaped white flowers that bloom in clusters. In landscaping, crape jasmine is often used as an ornamental shrub due to its aesthetic appeal and ability to attract pollinators like bees and butterflies. Its versatility also extends to traditional medicine where various parts of the plant are used to treat inflammatory conditions, skin ailments, and digestive issues. The plant's bark and leaves are often infused or applied topically in the form of poultices or creams for their therapeutic properties.",
+        "medicinal_use": "Crape jasmine is valued in traditional medicine for its anti-inflammatory, analgesic, and antimicrobial properties. It is used to alleviate pain, swelling, and irritation associated with skin disorders like eczema, dermatitis, and wounds. Additionally, extracts from crape jasmine have been explored for their potential in managing rheumatic conditions and as an adjunct therapy for certain infections. Its medicinal applications are diverse, ranging from alleviating fever and headaches to promoting wound healing and soothing respiratory ailments.",
+        "medicines": ["Topical creams", "Infusions"]
+      },
+      {
+        "id": 2,
+        "plant_name": "fenugreek",
+        "description": "Fenugreek, scientifically known as Trigonella foenum-graecum, is a versatile herb widely cultivated for its culinary, medicinal, and nutritional properties. It is characterized by small, golden-brown seeds with a distinctive aroma and a slightly bitter taste. Fenugreek leaves, known as methi in many cuisines, are also prized for their culinary contributions, adding flavor and depth to various dishes. Medicinally, fenugreek has a long history of use in traditional Ayurvedic and Chinese medicine systems, where it is valued for its diverse therapeutic effects.",
+        "medicinal_use": "Fenugreek is renowned for its myriad health benefits, including its role in promoting digestion, regulating blood sugar levels, and enhancing lactation in nursing mothers. The seeds are rich in soluble fiber, which helps to regulate cholesterol levels and promote heart health. Additionally, fenugreek seeds contain compounds like diosgenin, which exhibit estrogenic properties and may help alleviate symptoms associated with menopause and menstrual discomfort. Its anti-inflammatory and antioxidant properties further contribute to its use in managing conditions like arthritis, respiratory ailments, and skin disorders.",
+        "medicines": ["Capsules", "Tea"]
+      },
+      {
+        "id": 3,
+        "plant_name": "pomegranate",
+        "description": "Pomegranate, scientifically known as Punica granatum, is a fruit-bearing shrub or small tree native to the Mediterranean region. Renowned for its vibrant ruby-red arils and tart flavor, the pomegranate has been cherished for centuries as a symbol of fertility, abundance, and good health. In addition to its culinary allure, pomegranate is celebrated for its remarkable medicinal properties, with virtually every part of the plant holding therapeutic potential.",
+        "medicinal_use": "Pomegranate is a nutritional powerhouse, packed with antioxidants, vitamins, and minerals that support overall well-being. The fruit's high concentration of polyphenols, particularly punicalagins and anthocyanins, confers potent antioxidant and anti-inflammatory effects, which are beneficial for cardiovascular health, immune function, and cellular protection against oxidative stress. Pomegranate consumption has been associated with reduced risk factors for heart disease, improved cognitive function, and enhanced exercise performance. Moreover, extracts from pomegranate peel, seeds, and juice have demonstrated antimicrobial, anti-cancer, and anti-diabetic properties, making it a valuable adjunct in integrative medicine.",
+        "medicines": ["Extracts", "Juices"]
+      },
+      {
+        "id": 4,
+        "plant_name": "sandal wood",
+        "description": "Sandalwood, derived from the aromatic heartwood of the Santalum tree, is revered for its exquisite fragrance, cultural significance, and therapeutic properties. This slow-growing evergreen tree is native to the Indian subcontinent, Southeast Asia, and Australia, where it has been utilized for millennia in religious ceremonies, perfumery, and traditional medicine.",
+        "medicinal_use": "Sandalwood possesses a rich tapestry of medicinal applications, owing to its antimicrobial, anti-inflammatory, and astringent properties. Sandalwood oil, extracted through steam distillation of the heartwood, is a prized ingredient in aromatherapy, renowned for its calming effects on the mind and body. It is often used to alleviate anxiety, promote mental clarity, and induce a sense of relaxation. In skincare, sandalwood oil is valued for its ability to soothe irritated skin, reduce blemishes, and impart a radiant complexion. Moreover, sandalwood paste, made by grinding the wood into a fine powder, is applied topically to treat various dermatological conditions, including acne, eczema, and sunburn.",
+        "medicines": ["Essential oils", "Pastes"]
+      },
+      {
+        "id": 5,
+        "plant_name": "jamun rose apple",
+        "description": "Jamun, also known as rose apple or Syzygium cumini, is an evergreen tropical tree native to the Indian subcontinent and Southeast Asia. It is prized for its delicious and nutrient-rich fruit, which has a distinctively sweet and tangy flavor. The jamun tree bears small, oblong-shaped fruits that ripen to a dark purple hue, often enjoyed fresh or used in culinary preparations like jams, juices, and desserts.",
+        "medicinal_use": "Beyond its culinary appeal, jamun holds a revered place in traditional medicine for its diverse therapeutic properties. The fruit, seeds, bark, and leaves of the jamun tree are utilized in various formulations to address an array of health concerns. Jamun is particularly valued for its hypoglycemic properties, making it a popular choice for managing diabetes and related metabolic disorders. The seeds are rich in alkaloids and glycosides that help regulate blood sugar levels and improve insulin sensitivity. Additionally, jamun possesses potent antioxidant and anti-inflammatory compounds that support immune function, cardiovascular health, and digestive wellness.",
+        "medicines": ["Powders", "Juices"]
+      },
+      {
+        "id": 6,
+        "plant_name": "tulasi",
+        "description": "Tulasi, also known as holy basil or Ocimum sanctum, is a revered herb in Indian culture and traditional medicine. It is characterized by its aromatic leaves, which have a strong, peppery flavor and are often used in cooking, religious ceremonies, and herbal remedies. Tulasi is considered sacred in Hinduism and is commonly grown in household gardens and temple courtyards as a symbol of devotion and spiritual purity.",
+        "medicinal_use": "Tulasi is celebrated for its multifaceted healing properties, which encompass physical, mental, and spiritual well-being. In Ayurveda, tulasi is classified as a rasayana herb, revered for its ability to promote longevity, vitality, and resilience to stress. The leaves are rich in bioactive compounds, including eugenol, rosmarinic acid, and flavonoids, which exert potent antioxidant, anti-inflammatory, and adaptogenic effects. Tulasi is revered as an immune tonic that strengthens the body's defense mechanisms and promotes overall vitality. It is used to alleviate respiratory ailments, support cardiovascular health, and balance metabolic functions. Additionally, tulasi is valued for its calming effects on the nervous system, helping to reduce anxiety, enhance cognitive function, and promote restful sleep.",
+        "medicines": ["Tinctures", "Infusions"]
+      },
+      {
+        "id": 7,
+        "plant_name": "betel",
+        "description": "Betel, scientifically known as Piper betle, is a perennial vine belonging to the Piperaceae family, native to South and Southeast Asia. It is renowned for its heart-shaped leaves, which are traditionally chewed with areca nut and slaked lime in cultural and social rituals across many Asian countries. The practice of betel chewing, known as paan, holds deep cultural significance and is often associated with hospitality, social gatherings, and ceremonial occasions.",
+        "medicinal_use": "Betel leaves have been esteemed in traditional medicine for their myriad health benefits and therapeutic properties. They contain a range of bioactive compounds, including alkaloids, phenols, and tannins, which contribute to their antimicrobial, antioxidant, and digestive-stimulant effects. Betel leaves are chewed not only as a social custom but also for their purported medicinal properties. They are believed to promote oral hygiene, freshen breath, and aid digestion by stimulating saliva production and enhancing gastrointestinal motility. Furthermore, betel leaves are valued for their mild stimulant effects, which can help alleviate fatigue, improve mental alertness, and elevate mood.",
+        "medicines": ["Chewing", "Infusions"]
+      },
+      {
+        "id": 8,
+        "plant_name": "mint",
+        "description": "Mint, belonging to the genus Mentha, is a fragrant herbaceous plant known for its distinctive aroma, refreshing flavor, and medicinal properties. It is native to temperate regions of Europe, Asia, and North America, where it thrives in moist, well-drained soil and ample sunlight. Mint is characterized by its square stems, serrated leaves, and small, lilac-colored flowers that bloom in summer.",
+        "medicinal_use": "Mint has a rich history of use in traditional medicine systems worldwide, revered for its diverse therapeutic effects on the body and mind. It is prized for its ability to alleviate digestive discomfort, soothe respiratory ailments, and promote overall wellness. Mint leaves contain menthol, a volatile compound that imparts its characteristic cooling sensation and has mild analgesic properties. As such, mint is commonly used to relieve nausea, indigestion, bloating, and irritable bowel syndrome. It is also valued for its antispasmodic effects, which help relax muscles and alleviate cramps associated with menstrual pain and gastrointestinal issues.",
+        "medicines": ["Tea", "Oils"]
+      },
+      {
+        "id": 9,
+        "plant_name": "guava",
+        "description": "Guava, scientifically known as Psidium guajava, is a tropical fruit tree native to Central America and widely cultivated in subtropical and tropical regions around the world. It is prized for its delicious and aromatic fruit, which ranges in flavor from sweet to tart and can vary in color from green to yellow to pink, depending on the variety. Guava fruit is rich in essential nutrients, including vitamins, minerals, and dietary fiber, making it a nutritious addition to a balanced diet.",
+        "medicinal_use": "Beyond its culinary appeal, guava is esteemed for its medicinal properties and therapeutic benefits. Guava leaves, in particular, have been used in traditional medicine for centuries to address a variety of health concerns. They are rich in bioactive compounds, including flavonoids, tannins, and triterpenoids, which exhibit antioxidant, anti-inflammatory, and antimicrobial activities. Guava leaf extracts have been studied for their potential to lower blood sugar levels, regulate cholesterol levels, and improve digestive health. They are also valued for their astringent properties, which help alleviate diarrhea, reduce inflammation, and promote wound healing.",
+        "medicines": ["Infusions", "Extracts"]
+      },
+      {
+        "id": 10,
+        "plant_name": "oleander",
+        "description": "Oleander, scientifically known as Nerium oleander, is a flowering shrub or small tree native to the Mediterranean region, Asia, and Africa. It is prized for its showy clusters of colorful flowers, which range in hue from white and pink to red and yellow, and bloom prolifically throughout the growing season. Oleander is commonly cultivated as an ornamental plant in gardens, parks, and landscapes, where it adds visual interest and floral beauty.",
+        "medicinal_use": "Despite its striking appearance, oleander contains toxic compounds known as cardiac glycosides, which can be lethal if ingested or inhaled. All parts of the plant, including the leaves, flowers, stems, and roots, contain toxic alkaloids like oleandrin and nerioside, which affect the heart and nervous system. Ingestion of even small amounts of oleander can lead to symptoms of poisoning, including nausea, vomiting, abdominal pain, dizziness, irregular heartbeat, and respiratory distress. Due to its high toxicity, oleander is not recommended for medicinal use and should be handled with caution.",
+        "medicines": []
+      },
+      {
+        "id": 11,
+        "plant_name": "mango",
+        "description": "Mango, scientifically known as Mangifera indica, is a tropical fruit tree belonging to the Anacardiaceae family, native to South Asia but now cultivated in many tropical and subtropical regions around the world. It is prized for its delicious and aromatic fruit, which comes in a variety of shapes, sizes, and colors, ranging from green and yellow to orange and red. Mangoes are celebrated for their juicy flesh, sweet flavor, and rich nutritional profile, making them a favorite fruit in many cuisines worldwide.",
+        "medicinal_use": "Beyond its culinary allure, mango holds a revered place in traditional medicine for its diverse medicinal properties and therapeutic benefits. Mango leaves, in particular, are valued for their pharmacological effects and have been used in various herbal preparations to address a wide range of health concerns. They are rich in bioactive compounds, including polyphenols, flavonoids, and triterpenoids, which exhibit antioxidant, anti-inflammatory, and hypoglycemic activities. Mango leaf extracts have been studied for their potential to regulate blood sugar levels, improve lipid metabolism, and enhance insulin sensitivity in individuals with diabetes. Additionally, mango leaves are valued for their antimicrobial properties, which help combat bacterial and fungal infections.",
+        "medicines": ["Infusions", "Extracts"]
+      },
+      {
+        "id": 12,
+        "plant_name": "drumstick",
+        "description": "Drumstick, also known as moringa or Moringa oleifera, is a fast-growing tree valued for its nutritious leaves, pods, flowers, seeds, and roots. Native to the Indian subcontinent and parts of Africa, moringa has been cultivated for centuries for its culinary, medicinal, and industrial applications. The drumstick tree thrives in tropical and subtropical climates, where it is prized for its drought resistance, rapid growth, and adaptability to diverse soil conditions.",
+        "medicinal_use": "Drumstick holds a revered place in traditional medicine systems around the world, prized for its diverse therapeutic properties and nutritional benefits. The leaves, pods, seeds, and roots of the moringa tree are utilized in various herbal remedies to address a wide range of health concerns. Moringa leaves are exceptionally nutrient-dense, containing high levels of vitamins, minerals, antioxidants, and essential amino acids, making them a valuable dietary supplement for promoting overall health and well-being. They are rich in bioactive compounds, including flavonoids, phenolics, and glucosinolates, which exhibit antioxidant, anti-inflammatory, and anti-microbial activities. Moringa is used to alleviate malnutrition, boost immune function, regulate blood sugar levels, and support cardiovascular health.",
+        "medicines": ["Powders", "Extracts"]
+      },
+      {
+        "id": 13,
+        "plant_name": "lemon",
+        "description": "Lemon, scientifically known as Citrus limon, is a citrus fruit tree prized for its sour fruit, aromatic peel, and versatile culinary applications. Believed to have originated in Southeast Asia, lemons are now cultivated in subtropical and tropical regions worldwide, where they thrive in warm, sunny climates and well-drained soil. Lemon trees are evergreen and produce fruit year-round, with peak harvests occurring in winter and spring.",
+        "medicinal_use": "Lemons are revered for their myriad health benefits and therapeutic properties, making them a staple in traditional medicine systems around the world. The fruit, juice, peel, and essential oil of the lemon are all utilized for their medicinal properties, which include digestive support, immune enhancement, detoxification, and skincare. Lemons are a rich source of vitamin C, a powerful antioxidant that helps neutralize free radicals, support collagen synthesis, and strengthen the immune system. Lemon juice is also alkalizing to the body and aids in digestion by stimulating gastric juices and bile production. Lemon essential oil is valued for its antimicrobial, antiseptic, and astringent properties, making it a popular ingredient in natural remedies for respiratory infections, sore throat, acne, and wound healing.",
+        "medicines": ["Juices", "Oils"]
+      },
+      {
+        "id": 14,
+        "plant_name": "neem",
+        "description": "Neem, scientifically known as Azadirachta indica, is a fast-growing evergreen tree native to the Indian subcontinent, where it has been revered for centuries for its myriad medicinal, cosmetic, and pesticidal properties. Also known as the 'wonder tree' or 'village pharmacy,' neem plays a central role in traditional Indian medicine, agriculture, and cultural rituals.",
+        "medicinal_use": "Neem is celebrated for its diverse pharmacological actions and therapeutic applications, which encompass nearly every aspect of health and wellness. The leaves, bark, seeds, oil, and roots of the neem tree are utilized in various forms to treat a wide range of ailments and promote overall well-being. Neem is rich in bioactive compounds, including nimbin, nimbidin, azadirachtin, and quercetin, which exhibit potent antioxidant, anti-inflammatory, antimicrobial, antiviral, and immunomodulatory properties. Neem is used to treat skin disorders, dental issues, digestive disorders, respiratory ailments, and as an insect repellent. It is valued for its ability to purify the blood, boost immunity, promote detoxification, and support liver health.",
+        "medicines": ["Pastes", "Oils"]
+      },
+      {
+        "id": 15,
+        "plant_name": "mustard",
+        "description": "Mustard, scientifically known as Brassica juncea, is an annual herbaceous plant prized for its pungent seeds, spicy leaves, and culinary versatility. Native to the Mediterranean region and Asia, mustard is now cultivated worldwide for its seeds, which are used as a spice, condiment, and source of edible oil.",
+        "medicinal_use": "Mustard seeds and oil have a long history of use in traditional medicine systems around the world, prized for their diverse therapeutic properties and medicinal applications. Mustard seeds are rich in bioactive compounds, including glucosinolates, sinigrin, and allyl isothiocyanate, which exhibit potent antimicrobial, anti-inflammatory, antioxidant, and analgesic effects. Mustard seeds are used to alleviate muscle and joint pain, improve circulation, stimulate digestion, and promote respiratory health. Mustard oil is valued for its warming and stimulating properties, making it a popular ingredient in massage oils, liniments, and poultices for relieving muscular aches and pains, promoting relaxation, and enhancing skin health.",
+        "medicines": ["Pastes", "Oils"]
+      }
+    ]
+  

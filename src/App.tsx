@@ -5,6 +5,7 @@ import Navigation from './pages/Navigation'
 import Landing from './pages/Landing'
 import About from './pages/About'
 import PlantDescription from './pages/PlantDescription'
+import Services from './pages/Services'
 
 function App() {
 
@@ -14,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/plants/:id" element={<PlantDescription />} />
         <Route path="/" element={<Landing />} />
-        <Route path="/services" element={<TeachableMachine />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
-
+        <Route path="/projects/model" element={<TeachableMachine />} />
       </Routes>
     </>
   )

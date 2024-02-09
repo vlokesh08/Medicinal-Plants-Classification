@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "plant_name": "Aloe vera",
+    "medicinal_uses": [
+      "Wound healing",
+      "Soothing burns",
+      "Treating skin conditions",
+      "Aiding digestion",
+      "Boosting immunity"
+    ],
+    "description": "Common succulent plant with thick, fleshy leaves containing a clear gel. Widely used in topical and oral remedies."
+  },
+  {
+    "id": 2,
+    "plant_name": "Chamomile",
+    "medicinal_uses": [
+      "Reducing anxiety and stress",
+      "Promoting relaxation and sleep",
+      "Relieving muscle spasms",
+      "Soothing digestive issues"
+    ],
+    "description": "Dainty flowering herb with daisy-like blooms. Its dried flowers are commonly brewed into tea with calming properties."
+  },
+  {
+    "id": 3,
+    "plant_name": "Echinacea",
+    "medicinal_uses": [
+      "Supporting the immune system",
+      "Fighting off infections",
+      "Reducing inflammation",
+      "Promoting wound healing"
+    ],
+    "description": "Tall flowering herb with purple daisy-like flowers. Used traditionally to bolster the immune system and fight off colds and flu."
+  },
+  {
+    "id": 4,
+    "plant_name": "Ginger",
+    "medicinal_uses": [
+      "Nausea and vomiting relief",
+      "Reducing inflammation",
+      "Treating pain and arthritis",
+      "Improving digestion"
+    ],
+    "description": "Spiced root with a pungent aroma and flavor. Used in various remedies for pain, nausea, and digestive issues."
+  },
+  {
+    "id": 5,
+    "plant_name": "Lavender",
+    "medicinal_uses": [
+      "Reducing anxiety and stress",
+      "Promoting relaxation and sleep",
+      "Relieving headaches",
+      "Treating skin conditions"
+    ],
+    "description": "Fragrant herb with purple flowers. Used in aromatherapy and topical remedies for relaxation, pain relief, and skin care."
+  },
+  {
+    "id": 6,
+    "plant_name": "Lemon balm",
+    "medicinal_uses": [
+      "Reducing anxiety and stress",
+      "Promoting relaxation and sleep",
+      "Relieving indigestion",
+      "Treating cold sores"
+    ],
+    "description": "Lemon-scented herb with small white flowers. Used in tea and topical remedies for relaxation, indigestion relief, and cold sore treatment."
+  },
+  {
+    "id": 7,
+    "plant_name": "Nettle",
+    "medicinal_uses": [
+      "Reducing inflammation",
+      "Treating allergies",
+      "Lowering blood pressure",
+      "Supporting healthy hair and skin"
+    ],
+    "description": "Stinging herb with serrated leaves. Used in tea and topical remedies for allergies, inflammation, and skin and hair health."
+  },
+  {
+    "id": 8,
+    "plant_name": "Peppermint",
+    "medicinal_uses": [
+      "Relieving digestive upset",
+      "Reducing nausea and vomiting",
+      "Treating headaches",
+      "Freshening breath"
+    ],
+    "description": "Aromatic herb with menthol-flavored leaves. Used in tea, tinctures, and topical remedies for digestive issues, headaches, and oral care."
+  },
+  {
+    "id": 9,
+    "plant_name": "Turmeric",
+    "medicinal_uses": [
+      "Reducing inflammation",
+      "Treating pain and arthritis",
+      "Supporting brain health",
+      "Improving digestion"
+    ],
+    "description": "Vibrant yellow root with a warm, earthy flavor. Used in cooking and supplements for its anti-inflammatory and health-promoting properties."
+  },
+  {
+    "id": 10,
+    "plant_name": "Garlic",
+    "medicinal_uses": [
+      "Boosting the immune system",
+      "Fighting off infections",
+      "Lowering blood pressure",
+      "Supporting heart health"
+    ],
+    "description": "Pungent bulb with papery skin and numerous cloves. Used in cooking and supplements for its immune-boosting and health-protective properties."
+  },
+  {
+    "id": 11,
+    "plant_name": "Ashwagandha",
+    "medicinal_uses": [
+      "Reducing stress and anxiety",
+      "Boosting energy and stamina",
+      "Supporting brain health",
+      "Balancing hormones"
+    ],
+    "description": "Small shrub with yellow flowers and red berries. Used in supplements for stress relief, energy enhancement, and overall health support."
+  },
+  {
+    "id": 16,
+    "plant_name": "Dandelion",
+    "medicinal_uses": [
+      "Supporting liver health",
+      "Promoting detoxification",
+      "Aiding digestion",
+      "Reducing inflammation"
+    ],
+    "description": "Common bright yellow wildflower with dandelion-shaped flowers and fluffy seeds. Used in tea and tinctures for liver health, detoxification, and digestive support."
+  },
+  {
+    "id": 17,
+    "plant_name": "Hawthorn",
+    "medicinal_uses": [
+      "Supporting heart health",
+      "Regulating blood pressure",
+      "Improving circulation",
+      "Reducing anxiety"
+    ],
+    "description": "Shrub or small tree with white flowers and red berries. Used in tea and supplements for heart health, blood pressure regulation, and anxiety relief."
+  },
+  {
+    "id": 18,
+    "plant_name": "Oatstraw",
+    "medicinal_uses": [
+      "Reducing stress and anxiety",
+      "Improving sleep quality",
+      "Supporting nervous system health",
+      "Boosting immunity"
+    ],
+    "description": "Tall grass with green leafy blades and oat panicles. Used in tea and tinctures for stress relief, sleep improvement, and nervous system support."
+  },
+  {
+    "id": 19,
+    "plant_name": "Saw Palmetto",
+    "medicinal_uses": [
+      "Supporting prostate health",
+      "Promoting urinary tract health",
+      "Reducing hair loss",
+      "Increasing libido"
+    ],
+    "description": "Palm-like plant with fan-shaped leaves and small berries. Used in supplements for prostate health, urinary tract support, and potentially hair loss and libido concerns."
+  },
+  {
+    "id": 20,
+    "plant_name": "Valerian root",
+    "medicinal_uses": [
+      "Promoting relaxation and sleep",
+      "Reducing anxiety and stress",
+      "Relieving muscle tension",
+      "Improving sleep quality"
+    ],
+    "description": "Flowering herb with pink or white flowers and a strong odor. Used in tea and supplements for relaxation, sleep improvement, and anxiety relief."
+  }
+]
