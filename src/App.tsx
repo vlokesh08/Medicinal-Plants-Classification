@@ -7,6 +7,7 @@ import About from './pages/About'
 import PlantDescription from './pages/PlantDescription'
 import Services from './pages/Services'
 import { ListOfPlants } from './pages/ListOfPlants'
+import { ChatGpt } from './pages/ChatGpt'
 
 function App() {
 
@@ -18,8 +19,8 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects/model" element={<TeachableMachine />} />
-        <Route path="/plants/list" element={<ListOfPlants /> } />
+        <Route path="/model" element={<TeachableMachine />} />
+        <Route path="/list" element={<ListOfPlants /> } />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </>

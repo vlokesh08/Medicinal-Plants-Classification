@@ -3,14 +3,14 @@
         "id": 1,
         "title": "Predice the plants with images",
         "description": "This is a project to predict the plants with images",
-        "route": "/projects/model",
+        "route": "/model",
         "image" : "https://img.freepik.com/free-vector/cute-artificial-intelligence-robot-isometric-icon_1284-63045.jpg?w=740&t=st=1707454929~exp=1707455529~hmac=0d41d229d876bc7d97eb57f1c4fa2d355f6670b821b0826cc670ede8253009eb"
     },
     {
         "id": 2,
         "title": "Details of various plants",
         "description": "Get the details of various plants with images and other details",
-        "route": "/plants/list",
+        "route": "/list",
         "image" : "https://img.freepik.com/free-photo/bunch-fresh-mint-female-hands_158595-6938.jpg?w=1060&t=st=1707455043~exp=1707455643~hmac=42a3bc9b995cf5a2c13777fdd64da2e13688c65dc825abc5f07e2ba2f607be37"
     }
 ]
