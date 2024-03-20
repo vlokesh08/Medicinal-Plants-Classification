@@ -1,15 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 import * as tmImage from "@teachablemachine/image";
 import plants from "../pages/JsonFiles/Plants.json";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import axios from "axios";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const TeachableMachine = () => {
-  const URL = "https://teachablemachine.withgoogle.com/models/nDSqcyEQN/";
+  const URL = "https://teachablemachine.withgoogle.com/models/5vNutzwIt/";
   let model: any, labelContainer: any, maxPredictions: any;
   const imageRef = useRef(null);
   const [imageSrc, setImageSrc] = useState("");
   const [check, setCheck] = useState(false);
   const [val, setVal] = useState<any>("");
   const [isLoading, setIsLoading] = useState(false);
+  const [details, setDetails] = useState("");
 
   useEffect(() => {
     init();
@@ -54,20 +60,25 @@ const TeachableMachine = () => {
 
       const prediction = await model.predict(imageRef.current);
       for (let i = 0; i < maxPredictions; i++) {
-
         if (prediction[i].probability > maximum) {
           maximum = prediction[i].probability;
           answer = prediction[i].className;
         }
       }
 
+      const response = await axios.post("http://localhost:3000/model", {
+        name: answer,
+      });
+
+      setDetails(response.data.message.content);
+
       setVal(answer);
-      labelContainer.childNodes[0].innerHTML = answer;
+      // labelContainer.childNodes[0].innerHTML = answer;
       setCheck(true);
     } catch (error) {
       console.error(error);
     } finally {
-      setIsLoading(false); 
+      setIsLoading(false);
     }
   };
 
@@ -87,43 +98,73 @@ const TeachableMachine = () => {
         </div>
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-start-4 lg:col-span-6">
-            <input type="file" accept="image/*" onChange={handleImageUpload} />
-            <div>
-              {imageSrc && <img className="w-[320px] h-[320px]" src={imageSrc} alt="Uploaded" ref={imageRef} />}
+            <div className="grid w-full max-w-sm items-center gap-1.5">
+              <Label htmlFor="picture">Picture</Label>
+              <Input
+                id="picture"
+                type="file"
+                accept="image/*"
+                onChange={handleImageUpload}
+              />
+            </div>
+            <div className="m-5 p-4">
+              {imageSrc && (
+                // <img
+                //   className="w-[320px] h-[320px]"
+                //   src={imageSrc}
+                //   alt="Uploaded"
+                //   ref={imageRef}
+                // />
+                <AspectRatio ratio={16 / 9} className="bg-muted">
+                    <img
+                      src={imageSrc}
+                      alt="Photo by Drew Beamer"
+                      className="rounded-md object-cover"
+                      ref={imageRef}
+                    />
+                  </AspectRatio>
+              )}
             </div>
             <div id="label-container"></div>
-            {isLoading ? (
-              <button type="button" disabled className="loading-button">
-                Loading...
-              </button>
-            ) : (
-              <button type="button" onClick={predict}>Predict</button>
+            <div className="m-5 p-4">
+
+              {isLoading ? (
+                <button type="button" disabled className="loading-button">
+                  Loading...
+                </button>
+              ) : (
+                <Button type="button" onClick={predict}>
+                  Predict
+                </Button>
               )}
-              <div>
-                {check && (
-                  plants
-                    .filter((plant) =>
-                      plant.plant_name.toLowerCase().includes(val.toLowerCase())
-                    )
-                    .map((plant) => (
-                      <div key={plant.id}>
-                        <h1>{plant.plant_name}</h1>
-                        <p>{plant.description}</p>
-                      </div>
-                    ))
-                )}
-                {check && plants.length === 0 && (
-                  <div>
-                    <h1>Not Found</h1>
-                  </div>
-                )}
-              </div>
             </div>
           </div>
-        </section>
+        </div>
+      <div className="m-3">
+        {check &&
+          plants
+            .filter((plant) =>
+              plant.plant_name.toLowerCase().includes(val.toLowerCase())
+            )
+            .map((plant) => (
+              <div key={plant.id} className="">
+                <h1 className=" font-bold">The Plant in the Picture is {plant.plant_name.toUpperCase()}</h1>
+                {/* <p className="text-justify">{plant.description}</p> */}
+              </div>
+            ))}
+        {check && plants.length === 0 && (
+          <div>
+            <h1>Not Found</h1>
+          </div>
+        )}
+      <div className=" w-hscreen">
+        <p className="text-justify">{details}</p>
       </div>
-    );
-  };
-  
-  export default TeachableMachine;
-  
+      </div>
+
+      </section>
+    </div>
+  );
+};
+
+export default TeachableMachine;

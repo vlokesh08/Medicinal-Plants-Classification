@@ -1,6 +1,6 @@
 import { useState } from "react";
 import OpenAI from 'openai';
-const apiKey = "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";
+const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
 const openai = new OpenAI({
     apiKey: apiKey, // This is the default and can be omitted
